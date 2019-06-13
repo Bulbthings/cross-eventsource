@@ -1,6 +1,6 @@
 {
     "name": "cross-eventsource",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Tiny helper package to use EventSource in an isomorphic way for Node, browsers and React Native.",
     "main": "src/node.js",
     "browser": "src/browser.js",

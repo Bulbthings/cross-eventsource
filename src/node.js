@@ -1,5 +1,6 @@
 const EventSource = require('eventsource');
 
-module.exports = exports = EventSource;
-exports.EventSource = EventSource;
+exports = EventSource;
 exports.default = EventSource;
+exports.EventSource = EventSource;
+module.exports = exports;
