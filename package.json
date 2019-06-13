@@ -1,0 +1,18 @@
+{
+    "name": "cross-eventsource",
+    "version": "0.0.1",
+    "description": "Tiny helper package to use EventSource in an isomorphic way for Node, browsers and React Native.",
+    "main": "src/node.js",
+    "browser": "src/browser.js",
+    "react-native": "src/react-native.js",
+    "typings": "index.d.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "event-source-polyfill": "^1.0.5",
+        "eventsource": "^1.0.7"
+    }
+}
