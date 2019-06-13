@@ -1,4 +1,4 @@
-import EventSource from 'eventsource';
+const EventSource = require('eventsource');
 
 module.exports = exports = EventSource;
 exports.EventSource = EventSource;
