@@ -7,7 +7,7 @@ Tiny helper package to use [EventSource](https://developer.mozilla.org/en-US/doc
 -   Add the repository directly in your `package.json`:
 
 ```
-"cross-eventsource": "https://github.com/Bulbthings/cross-eventsource.git#0.0.4",
+"cross-eventsource": "https://github.com/Bulbthings/cross-eventsource.git#0.0.5",
 ```
 
 You can manually specify the latest [release](https://github.com/Bulbthings/cross-eventsource/releases).
