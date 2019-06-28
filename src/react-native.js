@@ -1,6 +1,6 @@
-import { NativeEventSource, EventSourcePolyfill } from 'event-source-polyfill';
+import RNEventSource from 'react-native-event-source';
 
-const EventSource = NativeEventSource || EventSourcePolyfill;
+const EventSource = RNEventSource;
 
 exports = EventSource;
 exports.default = EventSource;
