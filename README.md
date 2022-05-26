@@ -4,18 +4,18 @@ Tiny helper package to use [EventSource](https://developer.mozilla.org/en-US/doc
 
 ## Usage
 
--   Add the repository directly in your `package.json`:
+- Add the repository directly in your `package.json`:
 
 ```
-"cross-eventsource": "https://github.com/Bulbthings/cross-eventsource.git#0.1.0",
+"cross-eventsource": "https://github.com/Bulbthings/cross-eventsource.git#0.2.0",
 ```
 
 You can manually specify the latest [release](https://github.com/Bulbthings/cross-eventsource/releases).
 
--   Run `npm install`
+- Run `npm install`
 
--   Import the library:
+- Import the library:
 
 ```typescript
-import EventSource from 'cross-eventsource';
+import EventSource from "cross-eventsource";
 ```

@@ -1,30 +1,30 @@
 {
-    "name": "cross-eventsource",
-    "version": "0.1.0",
-    "description": "Tiny helper package to use EventSource in an isomorphic way for Node, browsers and React Native.",
-    "main": "src/node.js",
-    "browser": "src/browser.js",
-    "react-native": "src/react-native.js",
-    "typings": "index.d.ts",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "BulbThings",
-    "license": "MIT",
-    "dependencies": {
-        "event-source-polyfill": "^1.0.5",
-        "eventsource": "^2.0.2",
-        "react-native-event-source": "^1.1.0"
-    },
-    "keywords": [
-        "eventsource",
-        "isomorphic",
-        "universal",
-        "node",
-        "react",
-        "native",
-        "browser",
-        "polyfill",
-        "sse"
-    ]
+  "name": "cross-eventsource",
+  "version": "0.2.0",
+  "description": "Tiny helper package to use EventSource in an isomorphic way for Node, browsers and React Native.",
+  "main": "src/node.js",
+  "browser": "src/browser.js",
+  "react-native": "src/react-native.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BulbThings",
+  "license": "MIT",
+  "dependencies": {
+    "event-source-polyfill": "^1.0.5",
+    "eventsource": "^2.0.2",
+    "react-native-event-source": "^1.1.0"
+  },
+  "keywords": [
+    "eventsource",
+    "isomorphic",
+    "universal",
+    "node",
+    "react",
+    "native",
+    "browser",
+    "polyfill",
+    "sse"
+  ]
 }
