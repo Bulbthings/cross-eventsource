@@ -1,6 +1,4 @@
-import RNEventSource from 'react-native-event-source';
-
-const EventSource = RNEventSource;
+import EventSource from 'react-native-sse';
 
 exports = EventSource;
 exports.default = EventSource;
